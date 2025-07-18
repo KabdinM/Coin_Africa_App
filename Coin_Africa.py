@@ -282,7 +282,7 @@ def get_price_stats(df):
 @st.cache_data
 def load_vetements_homme_csv():
     try:
-        return pd.read_csv('Data/CoinAfrique_Vetements_homme.csv')
+        return pd.read_csv('Data/CoinAfrique_Vetements_Homme.csv')
     except FileNotFoundError:
         st.error("Fichier 'vetements_homme.csv' non trouvé")
         return pd.DataFrame()
