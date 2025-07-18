@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from beautifulsoup4 import BeautifulSoup
+import BeautifulSoup
 import requests
 import base64
 import matplotlib.pyplot as plt
